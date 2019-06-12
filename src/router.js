@@ -73,10 +73,14 @@ const router = new Router({
           name: 'chat',
           path: 'chat',
           component: () => import('@/components/Chat.vue')
-        },{
+        }, {
           name: 'MaxeanoOnly',
           path: 'MaxeanoOnly',
           component: () => import('@/components/MaxeanoOnly.vue')
+        }, {
+          name: 'TestMonitor',
+          path: 'TestMonitor',
+          component: () => import('@/components/TestMonitor.vue')
         }
       ]
     }
