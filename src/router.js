@@ -19,6 +19,11 @@ const router = new Router({
       component: () => import('@/views/error.vue'),
       props: true
     },
+    {
+      name: 'TestLogin',
+      path: '/TestLogin',
+      component: () => import('@/components/TestLogin.vue')
+    },
     //重定向
     {
       path: '/',
